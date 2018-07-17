@@ -7,14 +7,18 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var showMenu: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let url = URL(string: "https://enlightened.revelup.com/weborder/?establishment=1#login")
+        showMenu.load(URLRequest(url: url!))
     }
-
+  
 
 }
 
