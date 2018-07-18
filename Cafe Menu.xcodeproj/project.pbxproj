@@ -66,12 +66,12 @@
 		1FB5D59620F8427C002A21C0 /* Cafe_MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe_MenuUITests.swift; sourceTree = "<group>"; };
 		1FB5D59820F8427C002A21C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FB5D5A420F8503F002A21C0 /* ViewController_Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Load.swift; sourceTree = "<group>"; };
-		1FB5D5AA20F85765002A21C0 /* Cafe Menu - Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cafe Menu - Background.png"; path = "../../Cafe Menu - Background.png"; sourceTree = "<group>"; };
+		1FB5D5AA20F85765002A21C0 /* Cafe Menu - Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cafe Menu - Background.png"; sourceTree = "<group>"; };
 		1FB5D5AC20F85861002A21C0 /* LogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoWhite.png; sourceTree = "<group>"; };
 		1FB5D5AE20F85CA9002A21C0 /* LogoRoundCorners.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoRoundCorners.png; sourceTree = "<group>"; };
 		1FCA1A7520FDB33F002A6002 /* icons8-instagram-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-instagram-30.png"; sourceTree = "<group>"; };
 		1FCA1A7720FDB344002A6002 /* icons8-facebook-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-facebook-30.png"; sourceTree = "<group>"; };
-		1FEAEB9920FC498E00520521 /* CallUsNow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CallUsNow.png; path = ../../CallUsNow.png; sourceTree = "<group>"; };
+		1FEAEB9920FC498E00520521 /* CallUsNow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CallUsNow.png; sourceTree = "<group>"; };
 		1FEAEB9B20FC4B2E00520521 /* GetDirections.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GetDirections.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
