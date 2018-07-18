@@ -20,7 +20,6 @@
 		1FB5D58C20F8427C002A21C0 /* Cafe_MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB5D58B20F8427C002A21C0 /* Cafe_MenuTests.swift */; };
 		1FB5D59720F8427C002A21C0 /* Cafe_MenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB5D59620F8427C002A21C0 /* Cafe_MenuUITests.swift */; };
 		1FB5D5A520F8503F002A21C0 /* ViewController_Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB5D5A420F8503F002A21C0 /* ViewController_Load.swift */; };
-		1FB5D5A820F8556F002A21C0 /* hero-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FB5D5A720F8556F002A21C0 /* hero-bg.jpg */; };
 		1FB5D5AB20F85765002A21C0 /* Cafe Menu - Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB5D5AA20F85765002A21C0 /* Cafe Menu - Background.png */; };
 		1FB5D5AD20F85861002A21C0 /* LogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB5D5AC20F85861002A21C0 /* LogoWhite.png */; };
 		1FB5D5AF20F85CA9002A21C0 /* LogoRoundCorners.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB5D5AE20F85CA9002A21C0 /* LogoRoundCorners.png */; };
@@ -67,7 +66,6 @@
 		1FB5D59620F8427C002A21C0 /* Cafe_MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe_MenuUITests.swift; sourceTree = "<group>"; };
 		1FB5D59820F8427C002A21C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FB5D5A420F8503F002A21C0 /* ViewController_Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Load.swift; sourceTree = "<group>"; };
-		1FB5D5A720F8556F002A21C0 /* hero-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hero-bg.jpg"; path = "../../../../Downloads/hero-bg.jpg"; sourceTree = "<group>"; };
 		1FB5D5AA20F85765002A21C0 /* Cafe Menu - Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cafe Menu - Background.png"; path = "../../Cafe Menu - Background.png"; sourceTree = "<group>"; };
 		1FB5D5AC20F85861002A21C0 /* LogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoWhite.png; sourceTree = "<group>"; };
 		1FB5D5AE20F85CA9002A21C0 /* LogoRoundCorners.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoRoundCorners.png; sourceTree = "<group>"; };
@@ -158,7 +156,6 @@
 		1FB5D5A620F85563002A21C0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				1FB5D5A720F8556F002A21C0 /* hero-bg.jpg */,
 				1FB5D5AA20F85765002A21C0 /* Cafe Menu - Background.png */,
 				1FB5D5AC20F85861002A21C0 /* LogoWhite.png */,
 				1FB5D5AE20F85CA9002A21C0 /* LogoRoundCorners.png */,
@@ -289,7 +286,6 @@
 				1FB5D5AB20F85765002A21C0 /* Cafe Menu - Background.png in Resources */,
 				1FB5D58120F8427C002A21C0 /* LaunchScreen.storyboard in Resources */,
 				1FB5D57E20F8427C002A21C0 /* Assets.xcassets in Resources */,
-				1FB5D5A820F8556F002A21C0 /* hero-bg.jpg in Resources */,
 				1FCA1A7620FDB33F002A6002 /* icons8-instagram-30.png in Resources */,
 				1FA4A0F120FEE737008843AC /* icons8-facebook-50.png in Resources */,
 				1FA4A0F720FEE95B008843AC /* ClickLogoGreen.png in Resources */,
