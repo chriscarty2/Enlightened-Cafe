@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4ACD7F20FF8F9500B29AA1 /* App icon 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4ACD7E20FF8F9500B29AA1 /* App icon 40.png */; };
+		1F4ACD8120FF911800B29AA1 /* App icon 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4ACD8020FF911700B29AA1 /* App icon 120.png */; };
 		1FA4A0EF20FEE557008843AC /* BackToMainScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4A0EE20FEE557008843AC /* BackToMainScreen.png */; };
 		1FA4A0F120FEE737008843AC /* icons8-facebook-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4A0F020FEE736008843AC /* icons8-facebook-50.png */; };
 		1FA4A0F320FEE73B008843AC /* icons8-instagram-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4A0F220FEE73B008843AC /* icons8-instagram-50.png */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F4ACD7E20FF8F9500B29AA1 /* App icon 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App icon 40.png"; sourceTree = "<group>"; };
+		1F4ACD8020FF911700B29AA1 /* App icon 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App icon 120.png"; sourceTree = "<group>"; };
 		1FA4A0EE20FEE557008843AC /* BackToMainScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackToMainScreen.png; sourceTree = "<group>"; };
 		1FA4A0F020FEE736008843AC /* icons8-facebook-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-facebook-50.png"; sourceTree = "<group>"; };
 		1FA4A0F220FEE73B008843AC /* icons8-instagram-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-instagram-50.png"; sourceTree = "<group>"; };
@@ -100,6 +104,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F4ACD8220FF919600B29AA1 /* App Icon */ = {
+			isa = PBXGroup;
+			children = (
+				1F4ACD7E20FF8F9500B29AA1 /* App icon 40.png */,
+				1F4ACD8020FF911700B29AA1 /* App icon 120.png */,
+			);
+			path = "App Icon";
+			sourceTree = "<group>";
+		};
+		1F4ACD8320FF91C500B29AA1 /* Button Images */ = {
+			isa = PBXGroup;
+			children = (
+				1FEAEB9920FC498E00520521 /* CallUsNow.png */,
+				1FEAEB9B20FC4B2E00520521 /* GetDirections.png */,
+				1FCA1A7520FDB33F002A6002 /* icons8-instagram-30.png */,
+				1FCA1A7720FDB344002A6002 /* icons8-facebook-30.png */,
+				1FA4A0EE20FEE557008843AC /* BackToMainScreen.png */,
+				1FA4A0F020FEE736008843AC /* icons8-facebook-50.png */,
+				1FA4A0F220FEE73B008843AC /* icons8-instagram-50.png */,
+				1FA4A0F420FEE855008843AC /* ClickLogoPurple.png */,
+				1FA4A0F620FEE95B008843AC /* ClickLogoGreen.png */,
+				1FB5D5AE20F85CA9002A21C0 /* LogoRoundCorners.png */,
+			);
+			path = "Button Images";
+			sourceTree = "<group>";
+		};
 		1FB5D56A20F8427A002A21C0 = {
 			isa = PBXGroup;
 			children = (
@@ -156,18 +186,10 @@
 		1FB5D5A620F85563002A21C0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1F4ACD8320FF91C500B29AA1 /* Button Images */,
+				1F4ACD8220FF919600B29AA1 /* App Icon */,
 				1FB5D5AA20F85765002A21C0 /* Cafe Menu - Background.png */,
 				1FB5D5AC20F85861002A21C0 /* LogoWhite.png */,
-				1FB5D5AE20F85CA9002A21C0 /* LogoRoundCorners.png */,
-				1FEAEB9920FC498E00520521 /* CallUsNow.png */,
-				1FEAEB9B20FC4B2E00520521 /* GetDirections.png */,
-				1FCA1A7520FDB33F002A6002 /* icons8-instagram-30.png */,
-				1FCA1A7720FDB344002A6002 /* icons8-facebook-30.png */,
-				1FA4A0EE20FEE557008843AC /* BackToMainScreen.png */,
-				1FA4A0F020FEE736008843AC /* icons8-facebook-50.png */,
-				1FA4A0F220FEE73B008843AC /* icons8-instagram-50.png */,
-				1FA4A0F420FEE855008843AC /* ClickLogoPurple.png */,
-				1FA4A0F620FEE95B008843AC /* ClickLogoGreen.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -276,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4ACD7F20FF8F9500B29AA1 /* App icon 40.png in Resources */,
 				1FEAEB9C20FC4B2E00520521 /* GetDirections.png in Resources */,
 				1FEAEB9A20FC498E00520521 /* CallUsNow.png in Resources */,
 				1FCA1A7820FDB344002A6002 /* icons8-facebook-30.png in Resources */,
@@ -287,6 +310,7 @@
 				1FB5D58120F8427C002A21C0 /* LaunchScreen.storyboard in Resources */,
 				1FB5D57E20F8427C002A21C0 /* Assets.xcassets in Resources */,
 				1FCA1A7620FDB33F002A6002 /* icons8-instagram-30.png in Resources */,
+				1F4ACD8120FF911800B29AA1 /* App icon 120.png in Resources */,
 				1FA4A0F120FEE737008843AC /* icons8-facebook-50.png in Resources */,
 				1FA4A0F720FEE95B008843AC /* ClickLogoGreen.png in Resources */,
 				1FB5D57C20F8427A002A21C0 /* Main.storyboard in Resources */,

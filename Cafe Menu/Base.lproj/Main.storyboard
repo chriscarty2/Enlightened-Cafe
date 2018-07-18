@@ -81,7 +81,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EbK-VO-YiA" userLabel="showMenuSafari">
-                                <rect key="frame" x="47" y="49" width="281" height="279"/>
+                                <rect key="frame" x="47" y="43" width="281" height="279"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="showMenuSafari:" destination="yV4-bl-wTI" eventType="touchUpInside" id="qVT-GY-hCV"/>
