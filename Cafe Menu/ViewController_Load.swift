@@ -9,6 +9,7 @@
 import UIKit
 import MapKit
 
+
 class ViewController_Load: UIViewController {
 
 
@@ -81,8 +82,12 @@ class ViewController_Load: UIViewController {
         }
     }
     
-    
-    
+    @IBAction func showMenuSafari(_ sender: Any) {
+        UIApplication.shared.open(URL(string : "https://enlightened.revelup.com/weborder/?establishment=1#login")!, options: [:], completionHandler: { (status) in
+            
+        })
+    }
+ 
     
     override func viewDidLoad() {
         super.viewDidLoad()
