@@ -22,6 +22,7 @@ class ViewController_Load: UIViewController {
         
     }
     
+    
     @IBAction func getDirections(_ sender: Any) {
         let latitude:CLLocationDegrees = 39.337732
         let longitude:CLLocationDegrees = -74.482695

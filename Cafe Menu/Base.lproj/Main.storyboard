@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Cafe Menu - Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Toh-wj-LCw">
-                                <rect key="frame" x="-1" y="0.0" width="750.5" height="1334"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cafe Menu - Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Toh-wj-LCw">
+                                <rect key="frame" x="0.0" y="0.0" width="750.5" height="1334"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Toh-wj-LCw" secondAttribute="height" multiplier="9:16" id="4i2-gN-yHx"/>
                                 </constraints>
@@ -34,8 +34,8 @@
                                     <action selector="callNow:" destination="yV4-bl-wTI" eventType="touchUpInside" id="onZ-8v-QMQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roA-yf-JVN" userLabel="Get Directions">
-                                <rect key="frame" x="219" y="422" width="140" height="46"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roA-yf-JVN" userLabel="Get Directions">
+                                <rect key="frame" x="219" y="421" width="140" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="4oU-sh-1QX"/>
                                 </constraints>
@@ -57,30 +57,34 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="AOL-AW-Wam"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPK-sM-6Fm">
-                                <rect key="frame" x="95" y="384" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIM-QN-rJM">
+                                <rect key="frame" x="24" y="475" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Pcs-6q-H2e"/>
+                                    <constraint firstAttribute="height" constant="30" id="gVa-3P-BJ8"/>
+                                </constraints>
+                                <state key="normal" image="icons8-facebook-50.png"/>
+                                <connections>
+                                    <action selector="facebookButton:" destination="yV4-bl-wTI" eventType="touchUpInside" id="c58-fA-F7E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPK-sM-6Fm">
+                                <rect key="frame" x="90" y="475" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="E4x-xj-fdG"/>
                                     <constraint firstAttribute="width" constant="30" id="iY4-uD-WYR"/>
                                 </constraints>
-                                <state key="normal" image="icons8-instagram-30.png">
+                                <state key="normal" image="icons8-instagram-50.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="instagramButton:" destination="yV4-bl-wTI" eventType="touchUpInside" id="aH1-Bq-25P"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIM-QN-rJM">
-                                <rect key="frame" x="47" y="383" width="30" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="Pcs-6q-H2e"/>
-                                    <constraint firstAttribute="height" constant="30" id="gVa-3P-BJ8"/>
-                                </constraints>
-                                <state key="normal" image="icons8-facebook-30.png"/>
-                                <connections>
-                                    <action selector="facebookButton:" destination="yV4-bl-wTI" eventType="touchUpInside" id="c58-fA-F7E"/>
-                                </connections>
-                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ClickLogoGreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="RkO-L9-ra6">
+                                <rect key="frame" x="117" y="336" width="140" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.99207025766372681" green="0.99221235513687134" blue="0.9920392632484436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -123,32 +127,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cafe Menu - Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="mBL-It-w0K">
+                                <rect key="frame" x="0.0" y="0.0" width="750" height="1334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oPZ-Vg-jch">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="613"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="oPZ-Vg-jch" secondAttribute="height" multiplier="375:647" id="BCM-OW-2Hk"/>
+                                    <constraint firstAttribute="width" secondItem="oPZ-Vg-jch" secondAttribute="height" multiplier="375:647" constant="19.70633693972178" id="BCM-OW-2Hk"/>
                                 </constraints>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xua-1r-X4U">
-                                <rect key="frame" x="30" y="20" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xua-1r-X4U">
+                                <rect key="frame" x="117" y="617" width="140" height="46"/>
+                                <state key="normal" image="BackToMainScreen.png"/>
                                 <connections>
-                                    <segue destination="yV4-bl-wTI" kind="show" id="mV7-rf-IZ8"/>
+                                    <segue destination="yV4-bl-wTI" kind="show" id="huL-Px-718"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xua-1r-X4U" secondAttribute="trailing" constant="299" id="11j-bf-IdN"/>
-                            <constraint firstItem="oPZ-Vg-jch" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="6Oa-My-EYM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xua-1r-X4U" secondAttribute="trailing" constant="118" id="11j-bf-IdN"/>
+                            <constraint firstItem="oPZ-Vg-jch" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-20" id="6Oa-My-EYM"/>
                             <constraint firstItem="oPZ-Vg-jch" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6cb-Ta-Pva"/>
-                            <constraint firstItem="xua-1r-X4U" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="EpB-HL-D4R"/>
-                            <constraint firstItem="oPZ-Vg-jch" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="KcA-0d-Owq"/>
+                            <constraint firstItem="xua-1r-X4U" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="597" id="EpB-HL-D4R"/>
+                            <constraint firstItem="oPZ-Vg-jch" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-54" id="KcA-0d-Owq"/>
                             <constraint firstItem="xua-1r-X4U" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="bFc-zu-9Aj"/>
                             <constraint firstItem="oPZ-Vg-jch" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ess-yw-Urq"/>
                         </constraints>
@@ -160,15 +168,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="298.39999999999998" y="63.418290854572717"/>
+            <point key="canvasLocation" x="212" y="67"/>
         </scene>
     </scenes>
     <resources>
+        <image name="BackToMainScreen.png" width="140" height="46"/>
         <image name="Cafe Menu - Background.png" width="750" height="1334"/>
         <image name="CallUsNow.png" width="140" height="46"/>
+        <image name="ClickLogoGreen.png" width="140" height="46"/>
         <image name="GetDirections.png" width="140" height="46"/>
         <image name="LogoRoundCorners.png" width="400" height="378"/>
-        <image name="icons8-facebook-30.png" width="30" height="30"/>
-        <image name="icons8-instagram-30.png" width="30" height="30"/>
+        <image name="icons8-facebook-50.png" width="50" height="50"/>
+        <image name="icons8-instagram-50.png" width="50" height="50"/>
     </resources>
 </document>

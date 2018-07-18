@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FA4A0EF20FEE557008843AC /* BackToMainScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4A0EE20FEE557008843AC /* BackToMainScreen.png */; };
+		1FA4A0F120FEE737008843AC /* icons8-facebook-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4A0F020FEE736008843AC /* icons8-facebook-50.png */; };
+		1FA4A0F320FEE73B008843AC /* icons8-instagram-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4A0F220FEE73B008843AC /* icons8-instagram-50.png */; };
+		1FA4A0F520FEE855008843AC /* ClickLogoPurple.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4A0F420FEE855008843AC /* ClickLogoPurple.png */; };
+		1FA4A0F720FEE95B008843AC /* ClickLogoGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4A0F620FEE95B008843AC /* ClickLogoGreen.png */; };
 		1FB5D57720F8427A002A21C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB5D57620F8427A002A21C0 /* AppDelegate.swift */; };
 		1FB5D57920F8427A002A21C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB5D57820F8427A002A21C0 /* ViewController.swift */; };
 		1FB5D57C20F8427A002A21C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB5D57A20F8427A002A21C0 /* Main.storyboard */; };
@@ -43,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FA4A0EE20FEE557008843AC /* BackToMainScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackToMainScreen.png; sourceTree = "<group>"; };
+		1FA4A0F020FEE736008843AC /* icons8-facebook-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-facebook-50.png"; sourceTree = "<group>"; };
+		1FA4A0F220FEE73B008843AC /* icons8-instagram-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-instagram-50.png"; sourceTree = "<group>"; };
+		1FA4A0F420FEE855008843AC /* ClickLogoPurple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClickLogoPurple.png; sourceTree = "<group>"; };
+		1FA4A0F620FEE95B008843AC /* ClickLogoGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClickLogoGreen.png; sourceTree = "<group>"; };
 		1FB5D57320F8427A002A21C0 /* Cafe Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cafe Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB5D57620F8427A002A21C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FB5D57820F8427A002A21C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -156,6 +166,11 @@
 				1FEAEB9B20FC4B2E00520521 /* GetDirections.png */,
 				1FCA1A7520FDB33F002A6002 /* icons8-instagram-30.png */,
 				1FCA1A7720FDB344002A6002 /* icons8-facebook-30.png */,
+				1FA4A0EE20FEE557008843AC /* BackToMainScreen.png */,
+				1FA4A0F020FEE736008843AC /* icons8-facebook-50.png */,
+				1FA4A0F220FEE73B008843AC /* icons8-instagram-50.png */,
+				1FA4A0F420FEE855008843AC /* ClickLogoPurple.png */,
+				1FA4A0F620FEE95B008843AC /* ClickLogoGreen.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -267,12 +282,17 @@
 				1FEAEB9C20FC4B2E00520521 /* GetDirections.png in Resources */,
 				1FEAEB9A20FC498E00520521 /* CallUsNow.png in Resources */,
 				1FCA1A7820FDB344002A6002 /* icons8-facebook-30.png in Resources */,
+				1FA4A0F320FEE73B008843AC /* icons8-instagram-50.png in Resources */,
 				1FB5D5AD20F85861002A21C0 /* LogoWhite.png in Resources */,
+				1FA4A0F520FEE855008843AC /* ClickLogoPurple.png in Resources */,
+				1FA4A0EF20FEE557008843AC /* BackToMainScreen.png in Resources */,
 				1FB5D5AB20F85765002A21C0 /* Cafe Menu - Background.png in Resources */,
 				1FB5D58120F8427C002A21C0 /* LaunchScreen.storyboard in Resources */,
 				1FB5D57E20F8427C002A21C0 /* Assets.xcassets in Resources */,
 				1FB5D5A820F8556F002A21C0 /* hero-bg.jpg in Resources */,
 				1FCA1A7620FDB33F002A6002 /* icons8-instagram-30.png in Resources */,
+				1FA4A0F120FEE737008843AC /* icons8-facebook-50.png in Resources */,
+				1FA4A0F720FEE95B008843AC /* ClickLogoGreen.png in Resources */,
 				1FB5D57C20F8427A002A21C0 /* Main.storyboard in Resources */,
 				1FB5D5AF20F85CA9002A21C0 /* LogoRoundCorners.png in Resources */,
 			);
@@ -485,7 +505,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Enlightened-Cafe.Cafe-Menu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -504,7 +524,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Enlightened-Cafe.Cafe-Menu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
