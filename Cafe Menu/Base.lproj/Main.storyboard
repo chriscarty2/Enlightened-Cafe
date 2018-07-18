@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.14" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yV4-bl-wTI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14306.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yV4-bl-wTI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14278.2"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -57,22 +57,22 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="AOL-AW-Wam"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIM-QN-rJM">
-                                <rect key="frame" x="24" y="475" width="50" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIM-QN-rJM">
+                                <rect key="frame" x="130" y="475" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="Pcs-6q-H2e"/>
-                                    <constraint firstAttribute="height" constant="30" id="gVa-3P-BJ8"/>
+                                    <constraint firstAttribute="width" constant="50" id="Pcs-6q-H2e"/>
+                                    <constraint firstAttribute="height" constant="50" id="gVa-3P-BJ8"/>
                                 </constraints>
                                 <state key="normal" image="icons8-facebook-50.png"/>
                                 <connections>
                                     <action selector="facebookButton:" destination="yV4-bl-wTI" eventType="touchUpInside" id="c58-fA-F7E"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPK-sM-6Fm">
-                                <rect key="frame" x="90" y="475" width="50" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPK-sM-6Fm">
+                                <rect key="frame" x="196" y="475" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="E4x-xj-fdG"/>
-                                    <constraint firstAttribute="width" constant="30" id="iY4-uD-WYR"/>
+                                    <constraint firstAttribute="height" constant="50" id="E4x-xj-fdG"/>
+                                    <constraint firstAttribute="width" constant="50" id="iY4-uD-WYR"/>
                                 </constraints>
                                 <state key="normal" image="icons8-instagram-50.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -81,29 +81,30 @@
                                     <action selector="instagramButton:" destination="yV4-bl-wTI" eventType="touchUpInside" id="aH1-Bq-25P"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ClickLogoGreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="RkO-L9-ra6">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ClickLogoGreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="RkO-L9-ra6">
                                 <rect key="frame" x="117" y="336" width="140" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.99207025766372681" green="0.99221235513687134" blue="0.9920392632484436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="laY-gD-OCI" firstAttribute="trailing" secondItem="kPK-sM-6Fm" secondAttribute="trailing" constant="250" id="1Q6-4q-RU0"/>
+                            <constraint firstItem="laY-gD-OCI" firstAttribute="trailing" secondItem="kPK-sM-6Fm" secondAttribute="trailing" constant="129" id="1Q6-4q-RU0"/>
                             <constraint firstItem="roA-yf-JVN" firstAttribute="width" secondItem="WSw-Mc-mGA" secondAttribute="width" id="5K4-F6-tYR"/>
-                            <constraint firstItem="mIM-QN-rJM" firstAttribute="top" secondItem="Of6-dp-YFM" secondAttribute="bottom" constant="55" id="7EF-NM-ru0"/>
+                            <constraint firstItem="mIM-QN-rJM" firstAttribute="top" secondItem="Of6-dp-YFM" secondAttribute="bottom" constant="147" id="7EF-NM-ru0"/>
                             <constraint firstItem="WSw-Mc-mGA" firstAttribute="top" secondItem="Of6-dp-YFM" secondAttribute="bottom" constant="93" id="8Cl-hm-VF0"/>
-                            <constraint firstItem="kPK-sM-6Fm" firstAttribute="leading" secondItem="mIM-QN-rJM" secondAttribute="trailing" constant="18" id="9sz-Sh-aVd"/>
-                            <constraint firstItem="WSw-Mc-mGA" firstAttribute="top" secondItem="mIM-QN-rJM" secondAttribute="bottom" constant="8" id="Hok-ft-n7q"/>
+                            <constraint firstItem="kPK-sM-6Fm" firstAttribute="leading" secondItem="mIM-QN-rJM" secondAttribute="trailing" constant="16" id="9sz-Sh-aVd"/>
+                            <constraint firstItem="WSw-Mc-mGA" firstAttribute="top" secondItem="mIM-QN-rJM" secondAttribute="bottom" constant="-104" id="Hok-ft-n7q"/>
                             <constraint firstItem="roA-yf-JVN" firstAttribute="top" secondItem="Of6-dp-YFM" secondAttribute="bottom" constant="93" id="NYZ-xM-New"/>
+                            <constraint firstItem="RkO-L9-ra6" firstAttribute="centerX" secondItem="Of6-dp-YFM" secondAttribute="centerX" id="NeO-Z0-JHi"/>
                             <constraint firstItem="Of6-dp-YFM" firstAttribute="top" secondItem="laY-gD-OCI" secondAttribute="top" constant="29" id="S4K-X9-rMy"/>
-                            <constraint firstItem="kPK-sM-6Fm" firstAttribute="top" secondItem="Of6-dp-YFM" secondAttribute="bottom" constant="56" id="avP-ar-huK"/>
+                            <constraint firstItem="RkO-L9-ra6" firstAttribute="top" secondItem="Of6-dp-YFM" secondAttribute="bottom" constant="8" symbolic="YES" id="TkV-0U-ty1"/>
+                            <constraint firstItem="kPK-sM-6Fm" firstAttribute="top" secondItem="Of6-dp-YFM" secondAttribute="bottom" constant="147" id="avP-ar-huK"/>
                             <constraint firstItem="laY-gD-OCI" firstAttribute="trailing" secondItem="roA-yf-JVN" secondAttribute="trailing" constant="16" id="bON-Kh-exB"/>
                             <constraint firstItem="WSw-Mc-mGA" firstAttribute="baseline" secondItem="roA-yf-JVN" secondAttribute="baseline" id="bih-Dw-bYK"/>
                             <constraint firstItem="laY-gD-OCI" firstAttribute="trailing" secondItem="Of6-dp-YFM" secondAttribute="trailing" constant="48" id="cG9-cP-AKT"/>
                             <constraint firstItem="roA-yf-JVN" firstAttribute="height" secondItem="WSw-Mc-mGA" secondAttribute="height" id="gJ4-aU-UF0"/>
                             <constraint firstItem="kPK-sM-6Fm" firstAttribute="height" secondItem="mIM-QN-rJM" secondAttribute="height" id="k51-3y-NLX"/>
-                            <constraint firstItem="WSw-Mc-mGA" firstAttribute="top" secondItem="kPK-sM-6Fm" secondAttribute="bottom" constant="7" id="kKf-e4-ltp"/>
-                            <constraint firstItem="mIM-QN-rJM" firstAttribute="leading" secondItem="laY-gD-OCI" secondAttribute="leading" constant="47" id="lyH-2l-gRK"/>
+                            <constraint firstItem="WSw-Mc-mGA" firstAttribute="top" secondItem="kPK-sM-6Fm" secondAttribute="bottom" constant="-104" id="kKf-e4-ltp"/>
+                            <constraint firstItem="mIM-QN-rJM" firstAttribute="leading" secondItem="laY-gD-OCI" secondAttribute="leading" constant="130" id="lyH-2l-gRK"/>
                             <constraint firstItem="roA-yf-JVN" firstAttribute="leading" secondItem="WSw-Mc-mGA" secondAttribute="trailing" constant="63" id="mXl-jc-v9k"/>
                             <constraint firstItem="kPK-sM-6Fm" firstAttribute="width" secondItem="mIM-QN-rJM" secondAttribute="width" id="nTY-oz-Z4o"/>
                             <constraint firstItem="Of6-dp-YFM" firstAttribute="leading" secondItem="laY-gD-OCI" secondAttribute="leading" constant="47" id="omN-G4-GPL"/>
@@ -127,9 +128,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cafe Menu - Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="mBL-It-w0K">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cafe Menu - Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="mBL-It-w0K">
                                 <rect key="frame" x="0.0" y="0.0" width="750" height="1334"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oPZ-Vg-jch">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="613"/>
@@ -143,7 +143,7 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xua-1r-X4U">
-                                <rect key="frame" x="117" y="617" width="140" height="46"/>
+                                <rect key="frame" x="117" y="617" width="141" height="46"/>
                                 <state key="normal" image="BackToMainScreen.png"/>
                                 <connections>
                                     <segue destination="yV4-bl-wTI" kind="show" id="huL-Px-718"/>
@@ -152,13 +152,15 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xua-1r-X4U" secondAttribute="trailing" constant="118" id="11j-bf-IdN"/>
                             <constraint firstItem="oPZ-Vg-jch" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-20" id="6Oa-My-EYM"/>
                             <constraint firstItem="oPZ-Vg-jch" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6cb-Ta-Pva"/>
-                            <constraint firstItem="xua-1r-X4U" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="597" id="EpB-HL-D4R"/>
+                            <constraint firstItem="xua-1r-X4U" firstAttribute="top" secondItem="oPZ-Vg-jch" secondAttribute="bottom" constant="4" id="Ape-Un-gLv"/>
                             <constraint firstItem="oPZ-Vg-jch" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-54" id="KcA-0d-Owq"/>
-                            <constraint firstItem="xua-1r-X4U" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="bFc-zu-9Aj"/>
+                            <constraint firstItem="mBL-It-w0K" firstAttribute="top" secondItem="oPZ-Vg-jch" secondAttribute="top" id="S4g-Yx-f0R"/>
+                            <constraint firstItem="xua-1r-X4U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="bKf-bS-kH8"/>
+                            <constraint firstItem="xua-1r-X4U" firstAttribute="centerX" secondItem="oPZ-Vg-jch" secondAttribute="centerX" id="bLq-XR-5eF"/>
                             <constraint firstItem="oPZ-Vg-jch" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ess-yw-Urq"/>
+                            <constraint firstItem="mBL-It-w0K" firstAttribute="leading" secondItem="oPZ-Vg-jch" secondAttribute="leading" id="pBM-3g-uEM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -174,7 +176,7 @@
     <resources>
         <image name="BackToMainScreen.png" width="140" height="46"/>
         <image name="Cafe Menu - Background.png" width="750" height="1334"/>
-        <image name="CallUsNow.png" width="140" height="46"/>
+        <image name="CallUsNow.png" width="130" height="46"/>
         <image name="ClickLogoGreen.png" width="140" height="46"/>
         <image name="GetDirections.png" width="140" height="46"/>
         <image name="LogoRoundCorners.png" width="400" height="378"/>
